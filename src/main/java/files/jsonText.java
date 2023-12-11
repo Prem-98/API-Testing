@@ -1,8 +1,8 @@
 package files;
 
 public class jsonText {
-    public static String Addplace(){
-        return"{\n" +
+    public static String Addplace() {
+        return "{\n" +
                 "  \"location\": {\n" +
                 "    \"lat\": -38.383494,\n" +
                 "    \"lng\": 33.427362\n" +
@@ -18,5 +18,31 @@ public class jsonText {
                 "  \"website\": \"http://google.com\",\n" +
                 "  \"language\": \"French-IN\"\n" +
                 "}";
+    }
+
+    public static String Coursepricing() {
+        return "{\n" +
+                "\"dashboard\": {\n" +
+                "\"purchaseAmount\": 910,\n" +
+                "\"website\": \"rahulshettyacademy.com\"\n" +
+                "},\n" +
+                "\"courses\": [\n" +
+                "{\n" +
+                "\"title\": \"Selenium Python\",\n" +
+                "\"price\": 50,\n" +
+                "\"copies\": 6\n" +
+                "},\n" +
+                "{\n" +
+                "\"title\": \"Cypress\",\n" +
+                "\"price\": 40,\n" +
+                "\"copies\": 4\n" +
+                "},\n" +
+                "{\n" +
+                "\"title\": \"RPA\",\n" +
+                "\"price\": 45,\n" +
+                "\"copies\": 10\n" +
+                "}\n" +
+                "]\n" +
+                "}\n";
     }
 }
